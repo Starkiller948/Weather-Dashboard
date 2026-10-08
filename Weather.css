@@ -4,7 +4,22 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
 
-    
-    
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Main-background-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: height 20px;
+    height: 100vh;
+    border-radius: 20px;
+    background-color: color-mix(rgb(32, 69, 98), rgb(0, 0, 0));
 }
