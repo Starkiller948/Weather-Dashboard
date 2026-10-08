@@ -38,7 +38,7 @@ th{
 
 
 .Main-background-box {
-    flex: 1;
+    flex: 1 1 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -47,4 +47,19 @@ th{
     border-radius: 20px;
     
     background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
+    
+}
+
+.town-box {
+    display: flex;
+    padding: 20px;
+    flex: 1 1 0;
+  
+    height: 766px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 150px;
+    left: -400px;
+    
 }
