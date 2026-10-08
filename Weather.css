@@ -51,15 +51,17 @@ th{
 }
 
 .town-box {
-    display: flex;
+   /*display: flex;
     padding: 20px;
     flex: 1 1 0;
   
     height: 766px;
-    border-radius: 10px;
+    border-radius: 10px;*/
     background-color: rgba(0, 0, 0, 0.5);
+    height: 806px;
+    max-width: 3000px;
     position: relative;
     top: 150px;
-    left: -400px;
+    left: -300px;
     
 }
