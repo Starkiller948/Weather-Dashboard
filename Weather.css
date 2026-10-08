@@ -6,13 +6,15 @@ body {
     height: 100vh;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+div{
     color: white;
-    padding: 50px;
 }
+
+th{
+    padding: 20px;
+    font-size: 18px;
+}
+
 
 .Main-background-box {
     flex: 1;
