@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    color: var(--text);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "search search"
+        "sidebar main";
+}
+
+search-bar {
+    grid-area: search;
+    background-color: var(--red);
+}
+
+aside {
+    grid-area: sidebar;
+    padding: 1.5em;
+    background-color: var(--blue);
+}
+
+main {
+    grid-area: main;
+    padding: 1.5em;
+}
