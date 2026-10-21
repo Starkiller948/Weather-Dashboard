@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://external-preview.redd.it/crysis-sunset-landscape-with-god-rays-turned-on-to-maximum-v0-UxDVgUUegOBlShXCKOwvXTa2a_epR_1WShcy95LH_Bo.jpg?width=640&crop=smart&auto=webp&s=906dde11446b861795a75d959d632260958f1c05');
+    background-color: rgb(38, 38, 112);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ th{
 
 
 .Main-background-box {
-    flex: 1 1 0;
+    /*flex: 1 1 0;*/
     display: flex;
     padding: height 20px;
     height: 100vh;
@@ -73,13 +73,13 @@ th{
 }
 
 .town-box {
-    top: 199px;
-    left: -450px;
-    width: 100%; 
+    /*top: 300px;
+    left: -250px;*/
+    width: 500%; 
     height: 75%;
     background-color: rgb(0, 23, 39);
     /*border: 3px solid black;*/
     padding: 20px;
-    position: relative;
+    position: relative right;
     
 }
