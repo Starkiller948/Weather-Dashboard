@@ -1,15 +1,17 @@
-body {
+/*body {
     background-color: rgb(38, 38, 112);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-
-.Search-box{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    color: white;
+  
+}*/
+
+
+.Search-box /*Header*/{  
+    /*color: white;
     margin: 20px 0;
     position: relative;
     top: 50px;
@@ -20,16 +22,36 @@ body {
     width: 500px;
     height: 50px;
 
-    text-align: center;
+    text-align: center;*/
+
+    grid-column: 1/3;
+    grid-row: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
 } 
 
 
 .weather-icon {
-    padding: 50px;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
+
+.Search-box h1{
+    font-size: 24px;
+    margin: 0;
+}
+
+
 div{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 /*
 table{
@@ -50,8 +72,8 @@ th{
 
 
 
-.Vertical-Weather-text {
-    position: relative;
+.Vertical-Weather-text /*aside*/{
+    /*position: relative;
     top: 50px;
     left: -110px;
     color: white;
@@ -59,40 +81,63 @@ th{
     background-color: rgb(0, 23, 39);
     width: 500px;
     height: 50px;
-    text-align: center;
+    text-align: center;*/
    
+
+    grid-column: 1;
+    grid-row: 2;
+    padding: 20px;
+
+    background-color: rgb(0, 149, 255);
+
+    
+
+    /*margin-top: 200px;
+    position: relative;
+    left: -185px;*/
 }
 
 
 
+.Parent-background-box {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+.town-box /*main*/{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px;
+    background-color: rgb(249, 3, 3);
+}
 
 
-
-
-
-
-
-
-.Main-background-box {
-    /*flex: 1 1 0;*/
+ /* For Parent-background-box
+ 
+    flex: 1 1 0;* /
     display: flex;
-    /*padding: height 20px;*/
+    /*padding: height 20px;* /
     height: 100vh;
     border-radius: 20px;
     width: 90%;
     left: 50%;
     
-    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
-}
+    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));*/
 
-.town-box {
+
+ /* For town-box
+ 
     top: 150px;
-    /*left: 0px;*/
+    /*left: 0px;* /
     width: 400%; 
     height: 82%;
     background-color: rgb(0, 23, 39);
-    /*border: 3px solid black;*/
+    /*border: 3px solid black;* /
     border-radius: 20px;
-    position: relative;
-    
-}
+    position: relative;*/
