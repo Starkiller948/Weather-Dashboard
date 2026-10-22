@@ -1,13 +1,7 @@
-/*body {
-    background-color: rgb(38, 38, 112);
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  
-}*/
+body {
+    background-color: rgb(25, 25, 73);
+
+}
 
 
 .Search-box /*Header*/{  
@@ -32,7 +26,7 @@
     gap: 15px;
     
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(25, 58, 110);
     padding: 10px;
 } 
 
@@ -51,24 +45,8 @@
 
 
 div{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
-/*
-table{
-  margin-top: 200px;
-  position: relative;
-  left: -185px;
-    
-  border-collapse: collapse;
-    background-color: rgb(0, 23, 39);
-
-
-}
-th{
-    text-align: center;
-    padding: 50px;
-    font-size: 18px;
-}*/
 
 
 
@@ -82,15 +60,18 @@ th{
     width: 500px;
     height: 50px;
     text-align: center;*/
-   
+    
+    font-size: 24px;
 
     grid-column: 1;
     grid-row: 2;
     padding: 20px;
 
-    background-color: rgb(0, 149, 255);
+    background-color: rgb(25, 58, 110);
 
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     /*margin-top: 200px;
     position: relative;
@@ -98,10 +79,18 @@ th{
 }
 
 
+.vertical-text {
+    writing-mode: vertical-rl;
+    margin: 0;
+    font-size: 20px;
+    
+    
+}
+
 
 .Parent-background-box {
-    width: 800px;
-    height: 500px;
+    width: 1800px;
+    height: 950px;
     margin: auto;
     border: 2px solid black;
 
@@ -114,7 +103,7 @@ th{
     grid-column: 2;
     grid-row: 2;
     padding: 20px;
-    background-color: rgb(249, 3, 3);
+    background-color: rgb(11, 42, 73);
 }
 
 
