@@ -5,19 +5,6 @@ body {
 
 
 .Search-box /*Header*/{  
-    /*color: white;
-    margin: 20px 0;
-    position: relative;
-    top: 50px;
-    left: -110px;
-
-    background-color: rgb(0, 23, 39);
-
-    width: 500px;
-    height: 50px;
-
-    text-align: center;*/
-
     grid-column: 1/3;
     grid-row: 1;
 
@@ -28,7 +15,6 @@ body {
 
     background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
     
-
 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -61,16 +47,6 @@ div{
 
 
 .Vertical-Weather-text /*aside*/{
-    /*position: relative;
-    top: 50px;
-    left: -110px;
-    color: white;
-    font-size: 20px;
-    background-color: rgb(0, 23, 39);
-    width: 500px;
-    height: 50px;
-    text-align: center;*/
-    
     font-size: 24px;
 
     grid-column: 1;
@@ -94,10 +70,6 @@ div{
 
 
     border-bottom-left-radius: 20px;
-
-    /*margin-top: 200px;
-    position: relative;
-    left: -185px;*/
 }
 
 
@@ -122,46 +94,6 @@ div{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.vertical-text {
-    /*writing-mode: vertical-rl;
-    margin: 0; * /
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-    padding-top: 20px;
-    
-}*/
-
 .Parent-background-box {
     width: 1800px;
     height: 950px;
@@ -183,29 +115,33 @@ div{
 
     
     border-bottom-right-radius: 20px;
+
+    /*From chat for inner box in main*/
+    flex: 1;
+    min-width: 0;
+    min-height: 100vh;
+    padding:25px;
+    box-sizing: border-box;
+    
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
 }
 
-
- /* For Parent-background-box
- 
-    flex: 1 1 0;* /
+.left-section {
     display: flex;
-    /*padding: height 20px;* /
-    height: 100vh;
-    border-radius: 20px;
-    width: 90%;
-    left: 50%;
-    
-    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));*/
+    flex-direction: column;
+    gap: 40px;
+    min-width: 0;
+}
 
+.city-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    min-height: 130px;
+    padding: 0 10px;
+}
 
- /* For town-box
- 
-    top: 150px;
-    /*left: 0px;* /
-    width: 400%; 
-    height: 82%;
-    background-color: rgb(0, 23, 39);
-    /*border: 3px solid black;* /
-    border-radius: 20px;
-    position: relative;*/
