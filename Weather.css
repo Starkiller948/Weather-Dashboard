@@ -92,16 +92,17 @@ div{
 }
 
 
+
+
 .vertical-text {
-    writing-mode: vertical-rl;
-    margin: 0;
+    /*writing-mode: vertical-rl;
+    margin: 0; */
     font-size: 20px;
     text-align: center;
-    line-height: 1.5;
-    
+    line-height: 30px;
+    padding-top: 20px;
     
 }
-
 
 .Parent-background-box {
     width: 1800px;
@@ -122,7 +123,8 @@ div{
     padding: 20px;
     background-color: rgb(0, 23, 39);
 
-    border-top-left-radius: 5px;
+    
+    border-bottom-right-radius: 20px;
 }
 
 
