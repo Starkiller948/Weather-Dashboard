@@ -93,13 +93,17 @@ div{
 
 
 .vertical-text {
-    writing-mode: vertical-rl;
-    margin: 0;
+    /*writing-mode: vertical-rl;
+    margin: 0;*/
     font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
     
     
 }
-
 
 .Parent-background-box {
     width: 1800px;
