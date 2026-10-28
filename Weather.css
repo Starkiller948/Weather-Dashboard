@@ -164,3 +164,15 @@ div{
     font-size: 100px;
 }
 
+/* Hourly forecast card */
+.hourly-card {
+    background-color: rgb(0, 23, 39);
+    border-radius: 18px;
+    padding: 40px 20px;
+    min-height: 255px;
+
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    align-items: center;
+}
+
