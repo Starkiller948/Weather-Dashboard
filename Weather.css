@@ -119,7 +119,7 @@ div{
     /*From chat for inner box in main*/
     flex: 1;
     min-width: 0;
-    min-height: 100vh;
+    min-height: 50vh;
     padding:25px;
     box-sizing: border-box;
     
@@ -157,7 +157,8 @@ div{
 }
 
 .city-header h2{
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .big-weather-icon {
@@ -209,6 +210,7 @@ div{
     color: white;
     border-radius: 18px;
     padding: 20px;
+    min-height: 50px;
 }
 
 .air-heading {
@@ -242,7 +244,6 @@ div{
 
 /* 7-day forecast card */
 .forecast-card {
-    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
     color: white;
     border-radius: 18px;
     padding: 10px 10px;
@@ -261,9 +262,9 @@ div{
     grid-template-columns: 1fr 35px 1fr auto;
     align-items: center;
     gap: 10px;
-    min-height: 120px;
+    min-height: 100px;
     border-bottom: 1px solid rgb(72, 120, 158);
-    font-size: 15 px;
+    font-size: 16px;
 }
 
 .forecast-row:last-child {
