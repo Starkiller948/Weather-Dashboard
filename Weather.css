@@ -209,8 +209,8 @@ div{
     background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
     color: white;
     border-radius: 18px;
-    padding: 20px;
-    min-height: 50px;
+    padding: 7px;
+    
 }
 
 .air-heading {
