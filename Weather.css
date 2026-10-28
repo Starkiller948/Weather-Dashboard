@@ -145,3 +145,22 @@ div{
     padding: 0 10px;
 }
 
+.city-header h1{
+    margin: 0 0 5px;
+    font-size: 36px;
+}
+
+.city-header p {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.city-header h2{
+    margin-top: 35px;
+}
+
+.big-weather-icon {
+    font-size: 100px;
+}
+
