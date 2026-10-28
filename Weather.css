@@ -169,8 +169,8 @@ div{
 .hourly-card {
     background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
     border-radius: 18px;
-    padding: 0px 20px;
-    /*min-height: 255px;*/
+    padding: 20px 20px;
+    
 
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -209,20 +209,22 @@ div{
     background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
     color: white;
     border-radius: 18px;
-    padding: 7px;
-    
+    padding: 30px 40px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .air-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    margin-bottom: 25px;
 }
 
 .air-heading h2 {
+    margin: 0;
     font-size: 28px;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .air-heading button {
@@ -230,15 +232,33 @@ div{
     border: none;
     color: white;
     border-radius: 30px;
-    padding: 15px 25px;
+    padding: 14px 25px;
     cursor: pointer;
+}
+
+.details-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.details-grid > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .details-grid p {
     color: white;
+    margin: 0;
+    font-size: 16px;
 }
 
 .details-grid h2 {
+    margin: 0;
+    font-size: 24px;
     text-align: center;
 }
 
