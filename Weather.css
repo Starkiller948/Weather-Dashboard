@@ -3,26 +3,18 @@ body {
 
 }
 
+.Parent-background-box {
+    width: 1800px;
+    height: 950px;
+    margin: auto;
+    border: 2px solid black;
 
-.Search-box /*Header*/{  
-    grid-column: 1/3;
-    grid-row: 1;
+    border-radius: 20px;
 
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-
-    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
-    
-
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-
-
-} 
-
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: 80px 1fr;
+}
 
 .weather-icon {
     width: 50px;
@@ -32,6 +24,19 @@ body {
     padding-top: 20px;
 }
 
+.Search-box /*Header*/{  
+    grid-column: 1/3;
+    grid-row: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+} 
 
 .Search-box h1{
     font-size: 30px;
@@ -39,12 +44,9 @@ body {
     padding-left: 80px;
 }
 
-
 div{
     color: rgb(255, 255, 255);
 }
-
-
 
 .Vertical-Weather-text /*aside*/{
     font-size: 24px;
@@ -61,17 +63,12 @@ div{
     width: 220px;
     height: 100%;
     
-    
     padding-top: 200px;
     padding-left: 0px;
     box-sizing: border-box;
 
-
-
-
     border-bottom-left-radius: 20px;
 }
-
 
 .menu-item {
     display: flex;
@@ -93,20 +90,6 @@ div{
     font-size: 30px;
 }
 
-
-.Parent-background-box {
-    width: 1800px;
-    height: 950px;
-    margin: auto;
-    border: 2px solid black;
-
-    border-radius: 20px;
-
-    display: grid;
-    grid-template-columns: 180px 1fr;
-    grid-template-rows: 80px 1fr;
-}
-
 .town-box /*main*/{
     grid-column: 2;
     grid-row: 2;
@@ -121,7 +104,6 @@ div{
     min-height: 50vh;
     padding:25px;
     box-sizing: border-box;
-    
 
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -174,7 +156,6 @@ div{
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
     align-items: center;
-
 }
 
 .hour {
@@ -190,7 +171,6 @@ div{
     background-color: #005b7a;
     transform: translateY(-5px);
 }
-
 
 .hour:last-child {
     border-right: none;
@@ -271,8 +251,6 @@ div{
     padding: 5px;
 }
 
-
-
 .details-grid p {
     color: white;
     margin: 0;
@@ -291,7 +269,6 @@ div{
     border-radius: 18px;
     padding: 10px 10px;
     align-self: start;
-    
 }
 
 .forecast-card > h2 {
@@ -299,7 +276,6 @@ div{
     font-weight: normal;
     text-align: center;
     margin-bottom: 25px;
-    
 }
 
 .forecast-row {
