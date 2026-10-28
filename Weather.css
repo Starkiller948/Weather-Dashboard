@@ -112,7 +112,6 @@ div{
     grid-row: 2;
     padding: 20px;
     background-color: rgb(0, 23, 39);
-
     
     border-bottom-right-radius: 20px;
 
@@ -268,6 +267,7 @@ div{
     border-radius: 18px;
     padding: 10px 10px;
     align-self: start;
+    
 }
 
 .forecast-card > h2 {
@@ -275,6 +275,7 @@ div{
     font-weight: normal;
     text-align: center;
     margin-bottom: 25px;
+    
 }
 
 .forecast-row {
@@ -283,8 +284,12 @@ div{
     align-items: center;
     gap: 10px;
     min-height: 100px;
-    border-bottom: 1px solid rgb(72, 120, 158);
+    border-color: black;
+    
     font-size: 16px;
+    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .forecast-row:last-child {
