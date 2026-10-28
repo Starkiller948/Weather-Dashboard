@@ -166,7 +166,7 @@ div{
 
 /* Hourly forecast card */
 .hourly-card {
-    background-color: rgb(0, 23, 39);
+    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
     border-radius: 18px;
     padding: 40px 20px;
     min-height: 255px;
@@ -176,3 +176,100 @@ div{
     align-items: center;
 }
 
+.hour {
+    text-align: center;
+    color: white;
+    border-right: 2px solid rgb(72, 120, 158);
+    padding: 10px 5px;
+}
+
+.hour:last-child {
+    border-right: none;
+}
+
+.hour p {
+    font-size: 12px;
+    color: white;
+    white-space: nowrap;
+}
+
+.hour span {
+    display: block;
+    font-size: 28px;
+    margin: 35px 0;
+}
+
+.hour h2 {
+    margin: 0;
+}
+
+/* Air condition card */
+.air-card {
+    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
+    color: white;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.air-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.air-heading h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.air-heading button {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.details-grid p {
+    color: white;
+}
+
+.details-grid h2 {
+    text-align: center;
+}
+
+/* 7-day forecast card */
+.forecast-card {
+    background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
+    color: white;
+    border-radius: 18px;
+    padding: 25px 20px;
+    align-self: start;
+}
+
+.forecast-card > h2 {
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.forecast-row {
+    display: grid;
+    grid-template-columns: 1fr 35px 1fr auto;
+    align-items: center;
+    gap: 10px;
+    min-height: 120px;
+    border-bottom: 1px solid rgb(72, 120, 158);
+    font-size: 15 px;
+}
+
+.forecast-row:last-child {
+    border-bottom: none;
+}
+
+.forecast-row span:nth-child(2) {
+    font-size: 24px;
+}
