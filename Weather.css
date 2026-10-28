@@ -112,7 +112,7 @@ div{
     grid-row: 2;
     padding: 20px;
     background-color: rgb(0, 23, 39);
-    
+    border: 2px solid black;
     border-bottom-right-radius: 20px;
 
     /*From chat for inner box in main*/
@@ -169,11 +169,16 @@ div{
     background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
     border-radius: 18px;
     padding: 20px 20px;
-    
+    border: 2px solid black;
 
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
     align-items: center;
+
+/*
+    transition: transform 0.2s ease, box shadow 0.2s ease;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px red;*/
 }
 
 .hour {
@@ -211,6 +216,7 @@ div{
     padding: 30px 40px;
     box-sizing: border-box;
     width: 100%;
+    border: 2px solid black;
 }
 
 .air-heading {
@@ -284,12 +290,14 @@ div{
     align-items: center;
     gap: 10px;
     min-height: 100px;
-    border-color: black;
     
     font-size: 16px;
     background-color: color-mix(rgb(72, 120, 158), rgb(0, 0, 0));
+    
+    padding: 4px;
+
+    border: 1px solid black;
     border-radius: 20px;
-    padding: 5px;
 }
 
 .forecast-row:last-child {
